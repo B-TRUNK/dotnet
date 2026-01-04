@@ -61,4 +61,11 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
 	</ItemGroup>
 
+	<PropertyGroup>
+        <AndroidPackageFormat>apk</AndroidPackageFormat>
+        <AndroidSigningKeyStore>maui.keystore</AndroidSigningKeyStore>
+        <AndroidSigningKeyAlias>mauikey</AndroidSigningKeyAlias>
+        <AndroidSigningKeyPass>pass@1234</AndroidSigningKeyPass>
+    </PropertyGroup>
+
 </Project>
